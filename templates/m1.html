@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model 1</title>
+</head>
+<body>
+    <h1>Model 1</h1>
+    <form id="predictionForm">
+        <label for="inputSmiles">Enter SMILES:</label>
+        <input type="text" id="inputSmiles" name="inputSmiles">
+        <button type="submit">Predict</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="{{ url_for('static', filename='js/m1.js') }}"></script>
+</body>
+</html>
